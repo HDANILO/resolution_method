@@ -1,3 +1,4 @@
+#include <new>
 #include "Node.h"
 
 template<typename T>
