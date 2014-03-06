@@ -21,7 +21,7 @@ int main()
 
 	scanf("%s",cformula);
 	formula = cformula;
-	LinkedList<LinkedList<atomic>> *lla = atomic::atomic_from_formula(formula);
+	LinkedList< LinkedList<atomic> > *lla = atomic::atomic_from_formula(formula);
 	int size = formula.length();
 	int cont = 1;
 	char* s = (char*)malloc(sizeof(char)*256);
