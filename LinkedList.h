@@ -91,7 +91,7 @@ public:
 		{
 			Node<T>* aux = search(index-1);
 			Node<T>* aux2 = aux->next;
-			aux->next = new Node(elem);
+			aux->next = new typename Node(elem);
 			aux->next->next = aux2;
 			size++;
 		}
