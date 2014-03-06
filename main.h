@@ -175,7 +175,7 @@ public:
 			{
 				LinkedList<atomic>* formula1 = tableaux->get(i);
 				LinkedList<atomic>* formula2 = tableaux->get(j);
-				LinkedList<LinkedList<atomic>>* new_formulas = atomic::resolve_two_atomic(*formula1,*formula2);
+				LinkedList< LinkedList<atomic> >* new_formulas = atomic::resolve_two_atomic(*formula1,*formula2);
 
 				if (formula1->size == 1 && formula2->size == 1)
 				{
